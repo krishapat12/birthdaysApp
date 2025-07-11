@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BD3938962E2170AB008EDA03 /* friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3938952E2170AB008EDA03 /* friend.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BD3938792E2156FB008EDA03 /* birthdaysApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birthdaysApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3938952E2170AB008EDA03 /* friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		BD3938702E2156FB008EDA03 = {
 			isa = PBXGroup;
 			children = (
+				BD3938952E2170AB008EDA03 /* friend.swift */,
 				BD39387B2E2156FB008EDA03 /* birthdaysApp */,
 				BD39387A2E2156FB008EDA03 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3938962E2170AB008EDA03 /* friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
